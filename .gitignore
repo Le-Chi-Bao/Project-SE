@@ -1,0 +1,22 @@
+# IGNORE MỌI THỨ TRONG FOLDER HIỆN TẠI
+*
+
+# Giữ folder scripts (và mọi thứ bên trong)
+!/scripts/
+
+# Giữ các file final dataset
+!/final_data_*
+
+# Giữ file .gitignore
+!/.gitignore
+
+# Giữ file Python trong root (nếu có)
+!/*.py
+
+# === ĐẢM BẢO CÓ THỂ TRUY CẬP VÀO FOLDER SCRIPTS ===
+!scripts/*.py
+!scripts/*.ipynb
+
+# === IGNORE CÁC FILE/FOLDER KHÁC TRONG SCRIPTS (nếu muốn) ===
+scripts/__pycache__/
+scripts/*.log
